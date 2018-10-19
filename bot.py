@@ -2,8 +2,9 @@ import telebot
 from load_data import tdy, tmr, load_data, format_menu
 import telegram
 from extra_functions import menu, button_list
+import os
 
-TOKEN = '457069682:AAE--jQfpX_M_QfYd3s1pN_3yXbKvT1-Zzk'
+TOKEN = os.environ.get("TOKEN")
 bot = telebot.TeleBot(TOKEN)
 data = load_data()
 #button_menu = menu
