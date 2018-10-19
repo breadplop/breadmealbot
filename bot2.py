@@ -21,16 +21,6 @@ def start(bot, update):
 
 def button(bot, update):
     query = update.callback_query
-    '''if text == "today":
-        bot.send_message(chat_id, '*TODAY\'S MENU:* \n' + \
-        format_menu(data[tdy]),parse_mode=telegram.ParseMode.MARKDOWN)
-    elif text == "tomorrow":
-        bot.send_message (chat_id, '*TOMORROW\'S MENU:* \n' + \
-        format_menu(data[tmr]),parse_mode=telegram.ParseMode.MARKDOWN)
-    else:
-        bot.send_message (chat_id, '*Sorry, I did not understand :(* unbolded',parse_mode=telegram.ParseMode.MARKDOWN)
-        bot.send_message (chat_id, '_italics_ ',parse_mode=telegram.ParseMode.MARKDOWN)
-'''
     if query.data == 'today':
         bot.edit_message_text(
                         text='*TODAY\'S MENU:* \n' + format_menu(data[tdy]),
