@@ -1,1 +1,1 @@
-web: python breadmealbot:app
+web: python bot2:app

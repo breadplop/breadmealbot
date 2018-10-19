@@ -3,7 +3,7 @@ import datetime
 
 def load_data(month='Oct'):
     # TODO: load diff files acc to month. 
-    df = pd.read_csv('/Users/brenda/Downloads/Telegram Desktop/test_oct_menu_cleaned.csv')
+    df = pd.read_csv('test_oct_menu_cleaned.csv')
     return df
 
 def format_date(tdy_raw):
