@@ -11,9 +11,8 @@ pycparser==2.19
 pyOpenSSL==18.0.0
 pyTelegramBotAPI==3.6.6
 python-dateutil==2.7.3
-python-telegram-bot==11.1.0
 pytz==2018.5
 requests==2.20.0
 six==1.11.0
 urllib3==1.24
-telegram==0.0.1
+python-telegram-bot==11.1.0

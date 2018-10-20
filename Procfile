@@ -1,1 +1,1 @@
-worker: python bot2.py $80
+web: python bot2.py 
