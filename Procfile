@@ -1,1 +1,1 @@
-web: python bot2.py $32502
+worker: python bot2.py $32502
