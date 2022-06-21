@@ -5,7 +5,7 @@ chardet==3.0.4
 cryptography==2.3.1
 future==0.16.0
 idna==2.7
-numpy==1.14.1
+numpy==1.22.0
 pandas==0.20.3
 pycparser==2.19
 pyOpenSSL==18.0.0
